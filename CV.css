@@ -39,3 +39,7 @@ header{
     grid-row-end: 6;
     z-index:3;
 }
+
+img{
+    width:100px;
+}
