@@ -5,29 +5,37 @@ body {
 }
 
 header{
+    display: grid;
     grid-column-start: 1;
     grid-column-end:5;
     grid-row-start: 1;
     grid-row-end:13;
+    z-index:0;
 }
 
 .left {
+    display: grid;
     grid-column-start:1;
     grid-column-end:6;
     grid-row-start: 5;
     grid-row-end:17;
+    z-index:1;
 }
 
 .right{
+    display: grid;
     grid-column-start:6;
     grid-column-end: 13;
     grid-row-start:5;
     grid-row-end:17;
+    z-index:2;
 }
 
-img{
+.photo{
+    display: grid;
     grid-column-start:3;
     grid-column-end: 4;
     grid-row-start: 4;
     grid-row-end: 6;
+    z-index:3;
 }
