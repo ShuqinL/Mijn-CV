@@ -29,16 +29,16 @@ h2, h3{
     display: grid;
     grid-column-start:2;
     grid-column-end:6;
-    grid-row-start: 6;
+    grid-row-start: 7;
     grid-row-end:19;
     z-index:1;
 }
 
 .right{
     display: grid;
-    grid-column-start:7;
+    grid-column-start:6;
     grid-column-end: 12;
-    grid-row-start:6;
+    grid-row-start:7;
     grid-row-end:19;
     z-index:2;
 }
