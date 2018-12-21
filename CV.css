@@ -28,10 +28,13 @@ h2, h3{
 .left {
     display: grid;
     grid-column-start:2;
-    grid-column-end:6;
-    grid-row-start: 7;
-    grid-row-end:19;
+    grid-column-end:5;
+    grid-row-start: 8;
+    grid-row-end:18;
     z-index:1;
+    align-content: center;
+    background-color: rgb(170, 189, 174);
+
     }
    
 .right{
