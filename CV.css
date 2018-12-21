@@ -57,7 +57,7 @@ h2, h3{
 
 .opleiding{
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 80% 20%;
     grid-template-rows: repeat(1, 1fr);
     grid-template-areas: 
                 "title periode"
