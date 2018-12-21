@@ -10,7 +10,7 @@ header{
     grid-column-start: 1;
     grid-column-end:13;
     grid-row-start: 1;
-    grid-row-end:6;
+    grid-row-end:5;
     z-index:0;
     background-color: rgb(6,83,20);
     color: white;
