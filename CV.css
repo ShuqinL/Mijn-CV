@@ -33,6 +33,7 @@ h2, h3{
     grid-row-end:18;
     z-index:1;
     align-content: center;
+    justify-content: center;
     background-color: rgb(170, 189, 174);
 
     }
@@ -44,6 +45,22 @@ h2, h3{
     grid-row-start:7;
     grid-row-end:19;
     z-index:2;
+}
+
+.opleiding1{
+    grid-area: title;
+}
+
+.opleiding2{
+    grid-area: periode;
+}
+
+.opleiding{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas: 
+                "title periode"
 }
 
 .photo{
