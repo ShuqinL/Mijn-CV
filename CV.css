@@ -34,6 +34,56 @@ h2, h3{
     z-index:1;
 }
 
+.left1{
+    display: grid;
+    grid-column-start:2;
+    grid-column-end:6;
+    grid-row-start: 8;
+    grid-row-end:9;
+}
+
+.left2{
+    display: grid;
+    grid-column-start:2;
+    grid-column-end:6;
+    grid-row-start:9;
+    grid-row-end:11;
+}
+
+.left3{
+    display: grid;
+    grid-column-start:2;
+    grid-column-end:6;
+    grid-row-start: 12;
+    grid-row-end:13;
+}
+
+.left4{
+    display: grid;
+    grid-column-start:2;
+    grid-column-end:6;
+    grid-row-start: 13;
+    grid-row-end:15;
+}
+
+.left5{
+    display: grid;
+    grid-column-start:2;
+    grid-column-end:6;
+    grid-row-start: 16;
+    grid-row-end:17;
+}
+
+.left6{
+    display: grid;
+    grid-column-start:2;
+    grid-column-end:6;
+    grid-row-start: 17;
+    grid-row-end:19;
+}
+
+
+
 .right{
     display: grid;
     grid-column-start:6;
