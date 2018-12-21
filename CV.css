@@ -63,6 +63,22 @@ h2, h3{
                 "title periode"
 }
 
+.werkervaring1{
+    grid-area: position;
+}
+
+.werkervaring2{
+    grid-area: time;
+}
+
+.werkervaring{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas: 
+                "position time"
+}
+
 .photo{
     display: grid;
     grid-column-start:3;
